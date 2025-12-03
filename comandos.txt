@@ -1,0 +1,32 @@
+# === PYTHON ===
+
+
+# === GITHUB ===
+
+
+#estado de la branch 
+git status 
+
+#1guardar cambios 
+git add
+
+#comentar cambios 
+git commit -m "rama actualizada"
+
+#actualizar branch
+git push origin main
+ 
+#agregar readme.md
+git add README.md
+
+#
+git add modules/backend.py
+
+#creamos el ambiente virtual 
+python3 -m venv .venv
+
+#activamos el ambiente virtual
+source .venv/bin/activate
+
+#instalamos libretas
+pip3 install -r requirements.txt
